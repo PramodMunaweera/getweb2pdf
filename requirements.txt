@@ -1,0 +1,4 @@
+requests
+pdfkit
+PyPDF2
+beautifulsoup4
