@@ -18,7 +18,7 @@ setup(
     author="Pramod Munaweera",
     description="CLI tool to convert a website into a single PDF file",
     keywords="website pdf crawler",
-    url="https://github.com/yourname/getweb2pdf",
+    url="https://github.com/PramodMunaweera/getweb2pdf",
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
