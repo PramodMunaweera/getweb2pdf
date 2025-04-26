@@ -7,7 +7,7 @@ from urllib.parse import urljoin, urlparse
 from PyPDF2 import PdfMerger
 
 class GetWebToPDF:
-    def __init__(self, start_url, output_filename="website_documentation.pdf"):
+    def __init__(self, start_url, output_filename="website.pdf"):
         self.start_url = start_url
         self.domain = urlparse(start_url).netloc
         self.visited = set()
@@ -85,8 +85,8 @@ def main():
     parser.add_argument(
         "-o", "--output",
         type=str,
-        default="website_documentation.pdf",
-        help="Output PDF filename (default: website_documentation.pdf)"
+        default="website.pdf",
+        help="Output PDF filename (default: website.pdf)"
     )
 
     args = parser.parse_args()
