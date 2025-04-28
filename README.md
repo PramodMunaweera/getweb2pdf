@@ -1,4 +1,8 @@
 # 📚 GetWeb2PDF
+[![Python](https://img.shields.io/badge/python-3.7%2B-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/yourgithubusername/getweb2pdf/pulls)
+[![Issues](https://img.shields.io/github/issues/PramodMunaweera/getweb2pdf.svg)](https://github.com/PramodMunaweera/getweb2pdf/issues)
 
 **getweb2pdf** is a simple command-line tool to **crawl a website starting from a given URL** and **save the content into a single PDF**.  
 It is perfect for collecting documentation, technical articles, or educational resources into one offline file.
@@ -71,6 +75,11 @@ Arguments:
 |:---|:---|
 | `starting_url` | The URL to start crawling from (must be the same domain). |
 | `-o, --output` | Name of the output PDF file (default: `website_docs.pdf`). |
+| `--max-depth` | Maximum depth to crawl (default: no limit). |
+| `--no-merge` | Do not merge PDFs, keep individual pages as separate PDFs. |
+| `--save-intermediate` | Save intermediate PDFs even after merging. |
+| `--verbose` | Enable detailed logging. |
+| `--exclude` | Skip URLs containing these patterns (ex:--exclude archive login contact). |
 
 For help:
 
